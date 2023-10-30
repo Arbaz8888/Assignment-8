@@ -1,0 +1,73 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.employee-form {
+    text-align: left; /* Align the form to the left */
+}
+
+.input-container {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.input-container label {
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+    display: flex;
+}
+
+.input-container input {
+    width: 200px;
+}
+
+.button-container {
+    display: flex;
+    margin-left: 240px;
+
+}
+
+button {
+    width: 80px;
+    background-color: rgb(91,152,204);
+    color: white;
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+.button_cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+th {
+    background-color: rgb(91,152,204);
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(234,239,247,255);
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(210,222,239,255);
+}
